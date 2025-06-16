@@ -1,0 +1,21 @@
+:root{
+  --ft-primary: #6c4cff;
+  --ft-primary-dark:#5639cc;
+}
+
+body{
+  font-family:"Inter",Arial,sans-serif;
+}
+
+.btn-primary{
+  background:var(--ft-primary);
+  border-color:var(--ft-primary-dark);
+}
+.btn-primary:hover{
+  background:var(--ft-primary-dark);
+}
+
+.navbar-brand{
+  color:var(--ft-primary-dark);
+  text-decoration:none;
+}
